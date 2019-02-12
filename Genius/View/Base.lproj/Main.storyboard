@@ -39,7 +39,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="5BI-hK-Y0r">
                                         <rect key="frame" x="30" y="63.5" width="315" height="207"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUO-jH-R64">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUO-jH-R64" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="315" height="47"/>
                                                 <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="0.25486943493150682" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="25"/>
@@ -50,7 +50,7 @@
                                                     <segue destination="Nkt-7M-qZb" kind="show" identifier="goToMathScreen" id="hEA-HQ-Kea"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4i-vv-op8">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4i-vv-op8" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="80" width="315" height="47"/>
                                                 <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="0.25045483732876711" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="25"/>
@@ -61,7 +61,7 @@
                                                     <segue destination="1s6-Mk-qCQ" kind="show" identifier="goToNatureQuiz" id="Ut1-Ty-zle"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmz-Xy-ayP">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmz-Xy-ayP" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="160" width="315" height="47"/>
                                                 <color key="backgroundColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="25"/>
@@ -113,7 +113,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MathBG" translatesAutoresizingMaskIntoConstraints="NO" id="BMR-au-QhH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOTRBG" translatesAutoresizingMaskIntoConstraints="NO" id="BMR-au-QhH" userLabel="LOTRBG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EtN-vF-VgM" userLabel="TopContainer">
@@ -121,8 +121,9 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QuestionLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaO-os-Kx9" userLabel="Question Label">
                                         <rect key="frame" x="16" y="76" width="343" height="253"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ie-78-aDT" userLabel="BackButton">
@@ -147,7 +148,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J1k-ce-EoT" userLabel="MidContainer">
                                 <rect key="frame" x="0.0" y="345" width="375" height="275"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnU-tP-sdc">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnU-tP-sdc" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                         <rect key="frame" x="25" y="109.5" width="155.5" height="56"/>
                                         <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -161,7 +162,7 @@
                                             <action selector="AnswerPressed:" destination="Nkt-7M-qZb" eventType="touchUpInside" id="nnb-0g-ZQv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mx8-W0-Lah">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mx8-W0-Lah" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                         <rect key="frame" x="194.5" y="109.5" width="155.5" height="56"/>
                                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
@@ -186,14 +187,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iei-Kt-e9W" userLabel="BotContainer">
                                 <rect key="frame" x="0.0" y="620" width="375" height="47"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x/13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuN-Ny-J9A" userLabel="Progress Label">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="n/n" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuN-Ny-J9A" userLabel="Progress Label">
                                         <rect key="frame" x="8" y="0.0" width="52" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="MM4-yl-fmR"/>
                                             <constraint firstAttribute="height" constant="21" id="gth-ji-IZv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beW-XS-pOV" userLabel="Score Label">
@@ -203,7 +204,7 @@
                                             <constraint firstAttribute="height" constant="21" id="Zik-K4-Ic5"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tao-IC-wNb" userLabel="Progress Bar">
@@ -248,10 +249,10 @@
                         <viewLayoutGuide key="safeArea" id="Ls6-Wq-4mh"/>
                     </view>
                     <connections>
+                        <outlet property="LOTRProgressBar" destination="tao-IC-wNb" id="Zjm-aX-JiL"/>
                         <outlet property="LOTRProgressLabel" destination="fuN-Ny-J9A" id="934-Oo-Nfu"/>
                         <outlet property="LOTRQuestionLabel" destination="TaO-os-Kx9" id="muc-Dy-3J9"/>
-                        <outlet property="MathprogressBar" destination="tao-IC-wNb" id="8KP-By-Fnn"/>
-                        <outlet property="MathscoreLabel" destination="beW-XS-pOV" id="4FI-zq-JFm"/>
+                        <outlet property="LOTRScoreLabel" destination="beW-XS-pOV" id="1WE-yP-wuL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x7a-4J-eeN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -266,7 +267,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BioBG" translatesAutoresizingMaskIntoConstraints="NO" id="1md-ZZ-Qz4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1HPBG" translatesAutoresizingMaskIntoConstraints="NO" id="1md-ZZ-Qz4" userLabel="HPBG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JLB-cW-OK6" userLabel="TopContainer">
@@ -274,6 +275,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QuestionLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwb-z4-E75" userLabel="Question Label">
                                         <rect key="frame" x="16" y="76" width="343" height="253"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -300,7 +302,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nWi-kM-rQK" userLabel="MidContainer">
                                 <rect key="frame" x="0.0" y="345" width="375" height="275"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cl-Ff-q9Y">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cl-Ff-q9Y" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                         <rect key="frame" x="25" y="109.5" width="155.5" height="56"/>
                                         <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -314,7 +316,7 @@
                                             <action selector="AnswerPressed:" destination="1s6-Mk-qCQ" eventType="touchUpInside" id="HV5-FF-X4v"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy4-Ex-dla">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy4-Ex-dla" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                         <rect key="frame" x="194.5" y="109.5" width="155.5" height="56"/>
                                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
@@ -339,14 +341,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSL-ml-QO6" userLabel="BotContainer">
                                 <rect key="frame" x="0.0" y="620" width="375" height="47"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x/13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwA-su-XXo" userLabel="Progress Label">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="n/n" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XwA-su-XXo" userLabel="Progress Label">
                                         <rect key="frame" x="8" y="0.0" width="52" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="QtF-ga-9oT"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="dmc-j1-DZN"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxo-pM-RQv" userLabel="Score Label">
@@ -356,7 +358,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="116" id="Ryl-ei-5Eb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ybO-T0-MFi" userLabel="Progress Bar">
@@ -423,7 +425,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HistBG" translatesAutoresizingMaskIntoConstraints="NO" id="4Wv-On-gJq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1SWBG" translatesAutoresizingMaskIntoConstraints="NO" id="4Wv-On-gJq" userLabel="SWBG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="isK-gS-veX" userLabel="TopContainer">
@@ -431,8 +433,9 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QuestionLabel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vak-Zc-6Is">
                                         <rect key="frame" x="16" y="76" width="343" height="253"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuH-m7-mfm" userLabel="BackButton">
@@ -457,7 +460,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUl-RX-ndE" userLabel="MidContainer">
                                 <rect key="frame" x="0.0" y="345" width="375" height="275"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPO-sO-Ymt">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPO-sO-Ymt" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                         <rect key="frame" x="25" y="109.5" width="155.5" height="56"/>
                                         <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -471,7 +474,7 @@
                                             <action selector="AnswerPressed:" destination="WUu-VD-1Wm" eventType="touchUpInside" id="roE-6n-gML"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvr-dl-MOg">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvr-dl-MOg" customClass="BorderButton" customModule="Genius" customModuleProvider="target">
                                         <rect key="frame" x="194.5" y="109.5" width="155.5" height="56"/>
                                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
@@ -496,14 +499,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZR-V1-nEE" userLabel="BotContainer">
                                 <rect key="frame" x="0.0" y="620" width="375" height="47"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x/13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQC-df-D6n" userLabel="Progress Label">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="n/n" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQC-df-D6n" userLabel="Progress Label">
                                         <rect key="frame" x="8" y="0.0" width="52" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="U2V-9E-cez"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="Wi3-CQ-gcv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfU-NT-4gj" userLabel="Score Label">
@@ -513,7 +516,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="116" id="mTt-YY-ig0"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bzg-Cn-F2A">
@@ -558,10 +561,10 @@
                         <viewLayoutGuide key="safeArea" id="V53-MU-fhh"/>
                     </view>
                     <connections>
-                        <outlet property="HistProgressBar" destination="bzg-Cn-F2A" id="5SZ-bb-exB"/>
-                        <outlet property="HistProgressLabel" destination="HQC-df-D6n" id="rqO-YM-b3K"/>
-                        <outlet property="HistQuestionLabel" destination="vak-Zc-6Is" id="nmA-Qq-sO7"/>
-                        <outlet property="HistScoreLabel" destination="zfU-NT-4gj" id="bT6-bU-oW4"/>
+                        <outlet property="SWProgressBar" destination="bzg-Cn-F2A" id="5SZ-bb-exB"/>
+                        <outlet property="SWProgressLabel" destination="HQC-df-D6n" id="rqO-YM-b3K"/>
+                        <outlet property="SWQuestionLabel" destination="vak-Zc-6Is" id="nmA-Qq-sO7"/>
+                        <outlet property="SWScoreLabel" destination="zfU-NT-4gj" id="bT6-bU-oW4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hf5-Ky-WCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -570,10 +573,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BioBG" width="213" height="378.5"/>
+        <image name="1HPBG" width="245" height="458.5"/>
+        <image name="1SWBG" width="414" height="896"/>
         <image name="GeniusLogo" width="170.5" height="170.5"/>
-        <image name="HistBG" width="213" height="378.5"/>
-        <image name="MathBG" width="213" height="378.5"/>
+        <image name="LOTRBG" width="414" height="896"/>
         <image name="WelcomeBG" width="213" height="378.5"/>
         <image name="backButton" width="29" height="24"/>
     </resources>

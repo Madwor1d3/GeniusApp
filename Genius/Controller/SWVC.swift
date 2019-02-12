@@ -16,20 +16,16 @@ class SWVC: UIViewController {
     var score = 0
     
     
-    @IBOutlet weak var HistQuestionLabel: UILabel!
-    @IBOutlet weak var HistProgressLabel: UILabel!
-    @IBOutlet weak var HistScoreLabel: UILabel!
-    @IBOutlet weak var HistProgressBar: UIView!
+    @IBOutlet weak var SWQuestionLabel: UILabel!
+    @IBOutlet weak var SWProgressLabel: UILabel!
+    @IBOutlet weak var SWScoreLabel: UILabel!
+    @IBOutlet weak var SWProgressBar: UIView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         nextQuestion()
-    }
-    
-    
-    @IBAction func unwindFromMathVC(unwindSegue: UIStoryboardSegue) {
     }
     
     
@@ -50,16 +46,16 @@ class SWVC: UIViewController {
     
     //MARK: - UpdateUI Method
     func updateUI() {
-        HistScoreLabel.text = "Score: \(score)"
-        HistProgressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber + 1)
+        SWScoreLabel.text = "Score: \(score)"
+        SWProgressBar.frame.size.width = (view.frame.size.width / 15) * CGFloat(questionNumber + 1)
     }
     
     
     // MARK: - NextQuestion Method
     func nextQuestion() {
-        if questionNumber <= 12 {
-            HistQuestionLabel.text = allQuestions.list[questionNumber].questionText
-            HistProgressLabel.text = "\(questionNumber + 1) / 13"
+        if questionNumber <= 14 {
+            SWQuestionLabel.text = allQuestions.list[questionNumber].questionText
+            SWProgressLabel.text = "\(questionNumber + 1) / 15"
             updateUI()
         } else {
             let alert = UIAlertController(title: "Awesome!", message: "You've finished all the questions, do you want to start over?", preferredStyle: .alert)
@@ -78,7 +74,7 @@ class SWVC: UIViewController {
             ProgressHUD.showSuccess("Correct!")
             score += 1
         } else {
-            ProgressHUD.showError("Whrong!")
+            ProgressHUD.showError("Wrong!")
         }
     }
     

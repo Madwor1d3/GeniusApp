@@ -40,7 +40,7 @@ class LOTRQuestionBank {
         
         list.append(Question(text: "Pippin And Frodo Are Second Cousins.", correctAnswer: true))
         
-        list.append(Question(text: " The Elfish Word For Friend Is Mellon.", correctAnswer: true))
+        list.append(Question(text: "The Elfish Word For Friend Is Mellon.", correctAnswer: true))
         
         list.append(Question(text: " Isildur Is Aragorn's Grandfather.", correctAnswer: false))
         
@@ -48,7 +48,7 @@ class LOTRQuestionBank {
         
         list.append(Question(text: "Mount Doom Is Also Called Amon Amarth.", correctAnswer: true))
         
-        list.append(Question(text: " The Witch King Of Angmar Used To Be An Elf.", correctAnswer: false))
+        list.append(Question(text: "The Witch King Of Angmar Used To Be An Elf.", correctAnswer: false))
         
         list.append(Question(text: "The Capital Of Rohan Is Called Edoras.", correctAnswer: true))
         

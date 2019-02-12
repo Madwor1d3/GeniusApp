@@ -47,15 +47,15 @@ class HPVC: UIViewController {
     //MARK: - UpdateUI Method
     func updateUI() {
         HPScoreLabel.text = "Score: \(score)"
-        HPProgressBar.frame.size.width = (view.frame.size.width / 20) * CGFloat(questionNumber + 1)
+        HPProgressBar.frame.size.width = (view.frame.size.width / 15) * CGFloat(questionNumber + 1)
     }
     
     
     // MARK: - NextQuestion Method
     func nextQuestion() {
-        if questionNumber <= 19 {
+        if questionNumber <= 14 {
             HPQuestionLabel.text = allQuestions.list[questionNumber].questionText
-            HPProgressLabel.text = "\(questionNumber + 1) / 20"
+            HPProgressLabel.text = "\(questionNumber + 1) / 15"
             updateUI()
         } else {
             let alert = UIAlertController(title: "Awesome!", message: "You've finished all the questions, do you want to start over?", preferredStyle: .alert)
@@ -74,7 +74,7 @@ class HPVC: UIViewController {
             ProgressHUD.showSuccess("Correct!")
             score += 1
         } else {
-            ProgressHUD.showError("Whrong!")
+            ProgressHUD.showError("Wrong!")
         }
     }
     

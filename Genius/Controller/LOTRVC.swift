@@ -15,6 +15,7 @@ class LOTRVC: UIViewController {
     var questionNumber = 0
     var score = 0
 
+    
     @IBOutlet weak var LOTRQuestionLabel: UILabel!
     @IBOutlet weak var LOTRProgressLabel: UILabel!
     @IBOutlet weak var LOTRScoreLabel: UILabel!
@@ -73,7 +74,7 @@ class LOTRVC: UIViewController {
             ProgressHUD.showSuccess("Correct!")
             score += 1
         } else {
-            ProgressHUD.showError("Whrong!")
+            ProgressHUD.showError("Wrong!")
         }
     }
     

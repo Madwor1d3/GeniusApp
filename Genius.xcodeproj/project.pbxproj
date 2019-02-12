@@ -12,6 +12,7 @@
 		0A01F443221172A500E89EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A01F441221172A500E89EA0 /* Main.storyboard */; };
 		0A01F445221172A600E89EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A01F444221172A600E89EA0 /* Assets.xcassets */; };
 		0A01F448221172A600E89EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A01F446221172A600E89EA0 /* LaunchScreen.storyboard */; };
+		0A088A552212C10100D41071 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A088A542212C10100D41071 /* BorderButton.swift */; };
 		0A0EF3F6221216F800EB5274 /* HPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0EF3F5221216F800EB5274 /* HPVC.swift */; };
 		0AFB6A54221196420050EABD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A53221196420050EABD /* Question.swift */; };
 		0AFB6A56221197E30050EABD /* LOTRQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A55221197E30050EABD /* LOTRQuestionBank.swift */; };
@@ -31,6 +32,7 @@
 		0A01F444221172A600E89EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A01F447221172A600E89EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A01F449221172A600E89EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A088A542212C10100D41071 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		0A0EF3F5221216F800EB5274 /* HPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPVC.swift; sourceTree = "<group>"; };
 		0AFB6A53221196420050EABD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0AFB6A55221197E30050EABD /* LOTRQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRQuestionBank.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				0AFB6A55221197E30050EABD /* LOTRQuestionBank.swift */,
 				0AFB6A642211E5DA0050EABD /* HPQuestionBank.swift */,
 				0AFB6A672211E5F40050EABD /* SWQuestionBank.swift */,
+				0A088A542212C10100D41071 /* BorderButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				0AFB6A632211E5AE0050EABD /* SWVC.swift in Sources */,
 				0AFB6A5F2211D2CB0050EABD /* ProgressHUD.m in Sources */,
 				0AFB6A682211E5F40050EABD /* SWQuestionBank.swift in Sources */,
+				0A088A552212C10100D41071 /* BorderButton.swift in Sources */,
 				0AFB6A54221196420050EABD /* Question.swift in Sources */,
 				0AFB6A582211BD060050EABD /* LOTRVC.swift in Sources */,
 				0A01F440221172A500E89EA0 /* WelcomeVC.swift in Sources */,
