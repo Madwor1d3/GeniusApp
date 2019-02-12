@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0A01F43E221172A500E89EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01F43D221172A500E89EA0 /* AppDelegate.swift */; };
-		0A01F440221172A500E89EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01F43F221172A500E89EA0 /* ViewController.swift */; };
+		0A01F440221172A500E89EA0 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01F43F221172A500E89EA0 /* WelcomeVC.swift */; };
 		0A01F443221172A500E89EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A01F441221172A500E89EA0 /* Main.storyboard */; };
 		0A01F445221172A600E89EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A01F444221172A600E89EA0 /* Assets.xcassets */; };
 		0A01F448221172A600E89EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A01F446221172A600E89EA0 /* LaunchScreen.storyboard */; };
+		0A0EF3F6221216F800EB5274 /* HPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0EF3F5221216F800EB5274 /* HPVC.swift */; };
+		0AFB6A54221196420050EABD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A53221196420050EABD /* Question.swift */; };
+		0AFB6A56221197E30050EABD /* LOTRQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A55221197E30050EABD /* LOTRQuestionBank.swift */; };
+		0AFB6A582211BD060050EABD /* LOTRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A572211BD060050EABD /* LOTRVC.swift */; };
+		0AFB6A5E2211D2CB0050EABD /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB6A5B2211D2CA0050EABD /* ProgressHUD.bundle */; };
+		0AFB6A5F2211D2CB0050EABD /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A5D2211D2CB0050EABD /* ProgressHUD.m */; };
+		0AFB6A632211E5AE0050EABD /* SWVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A622211E5AE0050EABD /* SWVC.swift */; };
+		0AFB6A652211E5DA0050EABD /* HPQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A642211E5DA0050EABD /* HPQuestionBank.swift */; };
+		0AFB6A682211E5F40050EABD /* SWQuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFB6A672211E5F40050EABD /* SWQuestionBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A01F43A221172A500E89EA0 /* Genius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A01F43D221172A500E89EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A01F43F221172A500E89EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A01F43F221172A500E89EA0 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		0A01F442221172A500E89EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A01F444221172A600E89EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A01F447221172A600E89EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A01F449221172A600E89EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0EF3F5221216F800EB5274 /* HPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPVC.swift; sourceTree = "<group>"; };
+		0AFB6A53221196420050EABD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0AFB6A55221197E30050EABD /* LOTRQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRQuestionBank.swift; sourceTree = "<group>"; };
+		0AFB6A572211BD060050EABD /* LOTRVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRVC.swift; sourceTree = "<group>"; };
+		0AFB6A5A2211D2CA0050EABD /* Genius-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Genius-Bridging-Header.h"; sourceTree = "<group>"; };
+		0AFB6A5B2211D2CA0050EABD /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		0AFB6A5C2211D2CA0050EABD /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		0AFB6A5D2211D2CB0050EABD /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		0AFB6A622211E5AE0050EABD /* SWVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWVC.swift; sourceTree = "<group>"; };
+		0AFB6A642211E5DA0050EABD /* HPQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPQuestionBank.swift; sourceTree = "<group>"; };
+		0AFB6A672211E5F40050EABD /* SWQuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWQuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +58,6 @@
 		0A01F431221172A400E89EA0 = {
 			isa = PBXGroup;
 			children = (
-				0A01F44F2211755200E89EA0 /* Model */,
-				0A01F4502211756000E89EA0 /* View */,
-				0A01F441221172A500E89EA0 /* Main.storyboard */,
-				0A01F4512211756800E89EA0 /* Controller */,
 				0A01F43C221172A500E89EA0 /* Genius */,
 				0A01F43B221172A500E89EA0 /* Products */,
 			);
@@ -58,9 +74,10 @@
 		0A01F43C221172A500E89EA0 /* Genius */ = {
 			isa = PBXGroup;
 			children = (
-				0A01F43D221172A500E89EA0 /* AppDelegate.swift */,
-				0A01F444221172A600E89EA0 /* Assets.xcassets */,
-				0A01F446221172A600E89EA0 /* LaunchScreen.storyboard */,
+				0A01F44F2211755200E89EA0 /* Model */,
+				0A01F4502211756000E89EA0 /* View */,
+				0A01F4512211756800E89EA0 /* Controller */,
+				0AFB6A592211D2880050EABD /* Supporting files */,
 				0A01F449221172A600E89EA0 /* Info.plist */,
 			);
 			path = Genius;
@@ -69,6 +86,10 @@
 		0A01F44F2211755200E89EA0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0AFB6A53221196420050EABD /* Question.swift */,
+				0AFB6A55221197E30050EABD /* LOTRQuestionBank.swift */,
+				0AFB6A642211E5DA0050EABD /* HPQuestionBank.swift */,
+				0AFB6A672211E5F40050EABD /* SWQuestionBank.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,6 +97,8 @@
 		0A01F4502211756000E89EA0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A01F441221172A500E89EA0 /* Main.storyboard */,
+				0A01F444221172A600E89EA0 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -83,9 +106,25 @@
 		0A01F4512211756800E89EA0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0A01F43F221172A500E89EA0 /* ViewController.swift */,
+				0A01F43F221172A500E89EA0 /* WelcomeVC.swift */,
+				0AFB6A572211BD060050EABD /* LOTRVC.swift */,
+				0A0EF3F5221216F800EB5274 /* HPVC.swift */,
+				0AFB6A622211E5AE0050EABD /* SWVC.swift */,
+				0A01F43D221172A500E89EA0 /* AppDelegate.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AFB6A592211D2880050EABD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB6A5B2211D2CA0050EABD /* ProgressHUD.bundle */,
+				0AFB6A5C2211D2CA0050EABD /* ProgressHUD.h */,
+				0AFB6A5D2211D2CB0050EABD /* ProgressHUD.m */,
+				0A01F446221172A600E89EA0 /* LaunchScreen.storyboard */,
+				0AFB6A5A2211D2CA0050EABD /* Genius-Bridging-Header.h */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +159,7 @@
 				TargetAttributes = {
 					0A01F439221172A400E89EA0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -146,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFB6A5E2211D2CB0050EABD /* ProgressHUD.bundle in Resources */,
 				0A01F448221172A600E89EA0 /* LaunchScreen.storyboard in Resources */,
 				0A01F445221172A600E89EA0 /* Assets.xcassets in Resources */,
 				0A01F443221172A500E89EA0 /* Main.storyboard in Resources */,
@@ -159,8 +200,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A01F440221172A500E89EA0 /* ViewController.swift in Sources */,
+				0A0EF3F6221216F800EB5274 /* HPVC.swift in Sources */,
+				0AFB6A632211E5AE0050EABD /* SWVC.swift in Sources */,
+				0AFB6A5F2211D2CB0050EABD /* ProgressHUD.m in Sources */,
+				0AFB6A682211E5F40050EABD /* SWQuestionBank.swift in Sources */,
+				0AFB6A54221196420050EABD /* Question.swift in Sources */,
+				0AFB6A582211BD060050EABD /* LOTRVC.swift in Sources */,
+				0A01F440221172A500E89EA0 /* WelcomeVC.swift in Sources */,
 				0A01F43E221172A500E89EA0 /* AppDelegate.swift in Sources */,
+				0AFB6A56221197E30050EABD /* LOTRQuestionBank.swift in Sources */,
+				0AFB6A652211E5DA0050EABD /* HPQuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VV5BQ776YB;
 				INFOPLIST_FILE = Genius/Info.plist;
@@ -315,6 +365,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.madwor1d3.Genius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Genius/Supporting files/Genius-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VV5BQ776YB;
 				INFOPLIST_FILE = Genius/Info.plist;
@@ -333,6 +386,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.madwor1d3.Genius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Genius/Supporting files/Genius-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
