@@ -8,9 +8,12 @@
 
 import UIKit
 
-class HPVC: UIViewController {
 
-    let allQuestions = HPQuestionBank()
+class MainVC: UIViewController {
+    
+    var allQuestions: QuestionBank?
+    
+    var style: QuestionStyle?
     var pickedAnswer = false
     var questionNumber = 0
     var score = 0
@@ -25,6 +28,7 @@ class HPVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        pickedQuestionsBank()
         nextQuestion()
     }
     
@@ -44,17 +48,28 @@ class HPVC: UIViewController {
     }
     
     
+    func pickedQuestionsBank() {
+        
+        switch style {
+        case .lordOfTheRings?: allQuestions = LOTRQuestionBank()
+        case .harryPotter?: allQuestions = HPQuestionBank()
+        case .starWars?: allQuestions = SWQuestionBank()
+        default: break
+        }
+    }
+    
     //MARK: - UpdateUI Method
     func updateUI() {
         HPScoreLabel.text = "Score: \(score)"
         HPProgressBar.frame.size.width = (view.frame.size.width / 15) * CGFloat(questionNumber + 1)
+        view.layoutIfNeeded()
     }
     
     
     // MARK: - NextQuestion Method
     func nextQuestion() {
         if questionNumber <= 14 {
-            HPQuestionLabel.text = allQuestions.list[questionNumber].questionText
+            HPQuestionLabel.text = allQuestions?.list[questionNumber].questionText
             HPProgressLabel.text = "\(questionNumber + 1) / 15"
             updateUI()
         } else {
@@ -69,7 +84,7 @@ class HPVC: UIViewController {
     
     // MARK: - CheckAnswer Method
     func checkAnswer() {
-        let correctAnswer = allQuestions.list[questionNumber].answer
+        let correctAnswer = allQuestions?.list[questionNumber].answer
         if correctAnswer == pickedAnswer {
             ProgressHUD.showSuccess("Correct!")
             score += 1

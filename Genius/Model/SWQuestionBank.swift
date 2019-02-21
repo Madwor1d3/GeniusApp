@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SWQuestionBank {
+class SWQuestionBank: QuestionBank {
     
     var list = [Question]()
     

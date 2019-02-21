@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HPQuestionBank {
+class HPQuestionBank: QuestionBank {
     
     var list = [Question]()
     

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class LOTRQuestionBank {
+class LOTRQuestionBank: QuestionBank {
     
     var list = [Question]()
     
